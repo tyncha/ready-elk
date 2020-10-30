@@ -16,7 +16,7 @@ Beats: lightweight, single-purpose data shippers that can send data from hundred
 Here you will install the Elastic Stack on a CentOS 7 server. You will learn how to install all of the components of the Elastic Stack — including Filebeat, a Beat used for forwarding and centralizing logs and files — and configure them to gather and visualize system logs. Additionally, because Kibana is normally only available on the localhost, you will use Nginx to proxy it so it will be accessible over a web browser. At the end of this tutorial, you will have Elasticsearch, Kibana and Logstash on a  server, referred to as the Elastic Stack server, and Filebeat to push logs on the remote server.
 
 
-
+![ELK](/image/elk1.png?raw=true "Plan of Elastic")
 Ansible-elk
 ===========
 Ansible Playbook for setting up the ELK/EFK Stack and Filebeat client on remote hosts
